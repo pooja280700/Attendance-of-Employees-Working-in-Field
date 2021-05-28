@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#DF1152"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:layout_gravity="center"/>
+
+
+
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Full Name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/etSignUpEmailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Email Id"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+    <EditText
+        android:id="@+id/etSignUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans"/>
+
+    <EditText
+        android:id="@+id/etEmpId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Employee Id"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Your Mobile Number"
+        android:inputType="phone"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/etDepartmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" Enter Department Name"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Gender: "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Female"
+            android:typeface="sans" />
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Male"
+            android:typeface="sans" />
+
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Sign Up"
+        android:textColor="#DF1152"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvAlreadyRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Already have an Account? Login"
+        android:textColor="#DF1152"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+

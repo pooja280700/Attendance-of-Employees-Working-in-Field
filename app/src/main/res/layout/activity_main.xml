@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8DCDC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelEmail"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#DF1152"
+        android:textAlignment="center"
+        android:text=" "
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Mark Attendance"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#B10930"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/btnMarkAttendance"/>
+
+
+
+</LinearLayout>
